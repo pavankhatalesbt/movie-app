@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './Home.module.css'
 import { ToastContainer, toast } from "react-toastify";
-toast.success("Login Success");
+// toast.success("Login Success");
 
 const Home = () => {
     return (
@@ -11,7 +11,7 @@ const Home = () => {
 
                     User Login successfull
                 </h1>
-                <ToastContainer />
+                {/* <ToastContainer /> */}
 
         </div>
     )
