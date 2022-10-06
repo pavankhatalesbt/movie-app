@@ -1,0 +1,63 @@
+section{
+  background-color: #152238;
+  height: 91vh;
+}
+
+.formcontrol {
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+  width: 45%;
+border: 1px solid rgba(0, 0, 0, 0.1);
+/* position fixed */
+position: absolute;
+top: 28%;
+left: 30%;
+}
+
+h1 {
+  font-size: 32px;
+  color: #263238;
+  font-weight: 600;
+}
+
+p {
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 12px;
+  color: #546e7a;
+  font-weight: 400;
+}
+
+input {
+  width: 38vw;
+  border: 1px solid #0000003b;
+  border-radius: 15px;
+  outline: 1px solid #546e7a;
+  padding: 22px;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 14px;
+  padding: 10px 30px;
+  border: 1px solid transparent;
+  font-size: 15px;
+  background-color: #ff7d65;
+  text-align: center;
+  color: #ffffff;
+  width: 38vw;
+ font-weight: 600;
+}
+
+.errorMessage {
+  padding: 5px;
+  border: 1px solid #ff0000;
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+input::placeholder {
+  font-size: 15px;
+  color: #546e7a;
+}
