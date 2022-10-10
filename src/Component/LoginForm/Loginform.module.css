@@ -1,0 +1,46 @@
+.formcontainer{
+background-color:#ffffff;
+color: antiquewhite;
+width: 50%;
+position: absolute;
+border-radius: 20px;
+padding: 30px 0px 30px 30px;
+left: 25%;
+top: 25%;
+
+}
+h1{
+    color:#263238;
+    font-weight: 400;
+}
+p{
+    color: #546E7A;
+}
+
+.input{
+    margin-bottom: 15px;
+    width: 90%;
+    outline: none;
+    padding: 12px 0 12px 12px;
+    border-radius: 10px;
+    border: 0.5px solid #546E7A;
+    color: #263238;
+
+}
+.input:hover{
+    border: 2px solid#FF7D65;
+}
+.button{
+    background-color: #FF7D65;
+    border: #FF7D65;
+    padding: 7px;
+    outline: none;
+    width: 90%;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.xx{
+    background-color: rgb(11, 5, 44) !important;
+    height: 100vh;
+}

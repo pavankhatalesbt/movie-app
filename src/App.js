@@ -1,20 +1,23 @@
-import './App.css';
-import SignIn from './pages/SignIn/SignIn';
-import { Routes, Route } from "react-router-dom";
-import Home from './pages/Home/Home';
-import Navbar from './components/Navbar/Navbar'
-import 'antd/dist/antd.css';
+import React from "react";
+import Navbar from "./Component/Navbar/Navbar";
 
-function App() {
+import Loginform from "./Component/LoginForm/Loginform";
+import Private from "./Component/Private/Private";
+import { Home } from "./Pages/Home/Home";
+import { Route, Routes } from "react-router-dom";
+import Info from "./Pages/Movieinfo/Info";
+
+export const App = () => {
   return (
     <>
-    <Navbar/>
+      <Navbar/>
       <Routes>
- <Route path="/" element={<SignIn />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Loginform />} />
+        <Route path="/home" element={<Private Component={Home} />} />
+        <Route path='/moviei/:id' element={<Private Component={Info} />} />
+        <Route path='/:id' element={<Private Component={Info} />} />
       </Routes>
+
     </>
   );
-}
-
-export default App;
+};

@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import './index.css';
+import {App} from './App';
 import 'react-toastify/dist/ReactToastify.css';
-import { BrowserRouter } from "react-router-dom";
-import 'antd/dist/antd.css';
-
+import 'antd/dist/antd.min.css'
+import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+    <App />
+
     </BrowserRouter>
   </React.StrictMode>
 );
+
+

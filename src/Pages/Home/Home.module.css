@@ -1,0 +1,17 @@
+.Moviecontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.maincontainer {
+    background-color: rgb(1, 2, 15);
+    padding: 70px 56px 56px 56px;
+  
+}
+.maincontainer h1{
+    color: #ffffff;
+    background-color: rgb(1, 2, 15);
+    margin-bottom: 20px;
+  
+}
+

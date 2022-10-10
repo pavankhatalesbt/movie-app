@@ -1,0 +1,26 @@
+.poster{
+    width: 250px;
+    height: 160px;
+    background-size: contain;
+}
+
+.Cards{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.title{
+    color: #ffffff;
+    font-size: 15px;
+}
+.moviedetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: linear-gradient(0deg, #1A2B4A 0%, #2B507C 105.38%);
+}
+.ratingg{
+    display: flex;
+    justify-content: space-between;
+}
